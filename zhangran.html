@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>普罗法律服务 | 专业法律解决方案</title>
+    <title>张然律师 | 专业民商事法律解决方案</title>
     <style>
         :root {
             --primary-blue: #0a3d62;
@@ -336,72 +336,6 @@
             font-weight: 600;
         }
 
-        /* 团队部分 */
-        .team {
-            padding: 100px 0;
-            background-color: rgba(30, 30, 45, 0.7);
-        }
-
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
-
-        .team-member {
-            background-color: rgba(255, 255, 255, 0.05);
-            border-radius: 8px;
-            overflow: hidden;
-            text-align: center;
-            transition: transform 0.3s;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .team-member:hover {
-            transform: translateY(-5px);
-        }
-
-        .member-image {
-            height: 250px;
-            background-color: var(--primary-blue);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--white);
-            font-size: 18px;
-        }
-
-        .member-info {
-            padding: 20px;
-        }
-
-        .member-info h4 {
-            font-size: 18px;
-            margin-bottom: 5px;
-            color: var(--white);
-        }
-
-        .member-info p {
-            color: var(--secondary-blue);
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        .social-links a {
-            color: var(--light-gray);
-            transition: color 0.3s;
-        }
-
-        .social-links a:hover {
-            color: var(--secondary-blue);
-        }
-
         /* 页脚 */
         footer {
             background-color: rgba(10, 61, 98, 0.9);
@@ -520,9 +454,159 @@
             border-radius: 50%;
             background-color: var(--primary-blue);
         }
+
+        /* 个人简介样式 */
+        .bio {
+            padding: 100px 0;
+            background-color: rgba(10, 61, 98, 0.1);
+        }
+
+        .bio-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .bio-image {
+            flex: 1;
+            height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 24px;
+        }
+
+        .bio-text {
+            flex: 1;
+        }
+
+        .bio-text h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .bio-text p {
+            margin-bottom: 15px;
+            color: var(--light-gray);
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item h4 {
+            font-size: 24px;
+            color: var(--secondary-blue);
+        }
+
+        .stat-item p {
+            font-size: 14px;
+            color: var(--light-gray);
+        }
+
+        /* 证书与资格 */
+        .credentials {
+            padding: 100px 0;
+            background-color: var(--dark-black);
+        }
+
+        .credentials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .credential-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .credential-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .credential-card h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: var(--secondary-blue);
+        }
+
+        .credential-card p {
+            font-size: 14px;
+            color: var(--light-gray);
+        }
+
+        /* 在线预约 */
+        .appointment {
+            padding: 100px 0;
+            background-color: rgba(30, 30, 45, 0.7);
+        }
+
+        .appointment-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--light-gray);
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--white);
+        }
+
+        .form-group textarea {
+            height: 120px;
+        }
+
+        .submit-btn {
+            background-color: var(--secondary-blue);
+            color: var(--white);
+            padding: 12px 25px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            background-color: var(--accent-blue);
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
     <!-- 导航栏 -->
     <header>
@@ -534,10 +618,10 @@
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">首页</a></li>
-                    <li><a href="#services">服务</a></li>
-                    <li><a href="#cases">案例</a></li>
-                    <li><a href="#team">团队</a></li>
-                    <li><a href="#contact" class="cta-button">联系我们</a></li>
+                    <li><a href="#services">诉讼业务</a></li>
+                    <li><a href="#non-litigation">非诉业务</a></li>
+                    <li><a href="#compliance">企业合规</a></li>
+                    <li><a href="#appointment" class="cta-button">在线预约</a></li>
                 </ul>
                 <button class="mobile-menu-btn">
                     <i class="fas fa-bars"></i>
@@ -550,11 +634,11 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content fade-in">
-                <h2>专业的法律服务，科技化的解决方案</h2>
-                <p>我们结合法律专业知识与前沿科技，为您提供全面的法律服务，包括诉讼代理、企业合规、数据保护等领域的专业解决方案。</p>
+                <h2>张然律师 | 民商事法律专家</h2>
+                <p>专注民商事诉讼与企业法律顾问服务，累计处理案件超500起，标的额过亿。为多家上市公司构建风险防控体系，提供专业、高效的法律解决方案。</p>
                 <div class="hero-buttons">
-                    <a href="#services" class="primary-btn">了解服务</a>
-                    <a href="#contact" class="secondary-btn">立即咨询</a>
+                    <a href="#services" class="primary-btn">了解更多</a>
+                    <a href="#appointment" class="secondary-btn">预约咨询</a>
                 </div>
             </div>
         </div>
@@ -563,153 +647,304 @@
         <div class="decoration decoration-2"></div>
     </section>
 
-    <!-- 服务部分 -->
-    <section class="services" id="services">
+    <!-- 个人简介 -->
+    <section class="bio">
         <div class="container">
             <div class="section-title fade-in">
-                <h3>我们的专业服务</h3>
-                <p>结合法律专业知识与科技手段，为您提供高效、精准的法律解决方案</p>
+                <h3>个人简介</h3>
+                <p>资深执业律师，海量法律实务经验</p>
             </div>
-            <div class="services-grid">
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i class="fas fa-balance-scale"></i>
-                    </div>
-                    <h4>诉讼业务</h4>
-                    <p>包括民事、商事、刑事等各类诉讼案件代理，提供专业的法律分析和诉讼策略，维护您的合法权益。</p>
+            <div class="bio-content">
+                <div class="bio-image">
+                    <i class="fas fa-user-tie"></i>
                 </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i class="fas fa-file-contract"></i>
+                <div class="bio-text fade-in">
+                    <h3>张然律师</h3>
+                    <p>安徽大学法学本科。自执业以来，专注民商事诉讼与企业法律服务领域，累计处理案件500+，标的额超亿元，连续三年被总所评为年度公益律师。</p>
+                    <p>精通各类民商事案件诉讼策略制定与庭审应对，擅长企业合同风险防控、劳动用工合规体系建设，曾主导完成多家上市公司法律尽职调查及风险评估项目。</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>500+</h4>
+                            <p>累计案件</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>1亿+</h4>
+                            <p>案件标的额</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>8年</h4>
+                            <p>执业经验</p>
+                        </div>
                     </div>
-                    <h4>非诉业务</h4>
-                    <p>提供合同审查、法律咨询、尽职调查等非诉讼法律服务，帮助企业规避法律风险，实现商业目标。</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h4>企业合规</h4>
-                    <p>协助企业建立完善的合规管理体系，包括反腐败、反垄断、数据保护等方面的合规审查和整改。</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-virus"></i>
-                    </div>
-                    <h4>数据合规</h4>
-                    <p>提供数据保护法律咨询，帮助企业符合GDPR、CCPA等数据保护法规，制定数据安全策略。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 案例部分 -->
-    <section class="cases" id="cases">
+    <!-- 诉讼业务 -->
+    <section class="services" id="services">
         <div class="container">
             <div class="section-title fade-in">
-                <h3>成功案例</h3>
-                <p>我们已为众多客户提供专业法律服务，以下是部分成功案例</p>
+                <h3>诉讼业务</h3>
+                <p>专注复杂民商事案件，提供精准诉讼策略</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h4>合同纠纷</h4>
+                    <p>代理各类合同纠纷案件，包括买卖合同、服务合同、投资合同等，累计起草审查合同1000+份，为客户挽回经济损失数千万元。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>劳动争议</h4>
+                    <p>处理劳动争议案件100+起，熟悉企业用工风险防控，曾为多家企业提供劳动用工合规体系建设服务，有效降低企业用工风险。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-car-crash"></i>
+                    </div>
+                    <h4>交通事故</h4>
+                    <p>代理交通事故责任纠纷案件50+起，与多家保险公司建立合作关系，熟悉交通事故赔偿规则与保险理赔流程，为客户提供高效解决方案。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h4>建工房地产</h4>
+                    <p>承办建筑工程与房地产纠纷案件30+起，熟悉行业规范与交易习惯，为多家建筑企业提供法律尽职调查与风控体系建设服务。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 非诉业务 -->
+    <section class="services" id="non-litigation">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h3>非诉业务</h3>
+                <p>专业法律服务，助力企业稳健发展</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h4>合同管理</h4>
+                    <p>年均审查各类合同100+份，涵盖采购、销售、投资、合作等各类商业合同，主导建立合同标准化模板库，帮助企业标准化合同管理流程。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <h4>法律意见书</h4>
+                    <p>累计出具法律意见书200+份，为企业的重大决策、投资项目、股权变更等提供专业法律分析与风险评估，为企业规避潜在法律风险。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h4>尽职调查</h4>
+                    <p>主导完成30+起法律尽职调查项目，涵盖企业并购、投资、重组等多种场景，为客户提供全面的法律风险评估与解决方案。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h4>合规审查</h4>
+                    <p>为企业提供日常法律咨询、合规审查服务，协助企业完善管理制度与流程，确保企业运营符合法律法规要求，防范法律风险。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 企业合规与风险防控 -->
+    <section class="services" id="compliance">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h3>企业合规与风险防控</h3>
+                <p>构建企业风险防控体系，保障企业稳健发展</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>用工风险防控</h4>
+                    <p>为20+家企业构建劳动用工风险防控体系，涵盖员工入职、在职、离职全流程管理，有效降低企业劳动纠纷发生率。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice"></i>
+                    </div>
+                    <h4>税务合规</h4>
+                    <p>协助企业进行税务筹划与税务风险防控，确保企业税务管理符合法律法规要求，降低税务风险。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h4>知识产权保护</h4>
+                    <p>为企业提供知识产权保护策略与方案，包括商标注册、专利申请、著作权保护等，维护企业知识产权权益。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>商业秘密保护</h4>
+                    <p>为科技型企业提供商业秘密保护方案，从制度建设、人员管理、技术防护等多维度构建商业秘密保护体系。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 代表案例 -->
+    <section class="cases">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h3>代表案例</h3>
+                <p>专业实力，客户信赖</p>
             </div>
             <div class="cases-grid">
                 <div class="case-card fade-in">
                     <div class="case-image">
-                        <i class="fas fa-building"></i>
+                        <i class="fas fa-file-alt"></i>
                     </div>
                     <div class="case-content">
-                        <h4>某科技公司商业秘密侵权案</h4>
-                        <p>代理某科技公司应对前员工泄露商业秘密案件，成功维护客户权益。</p>
+                        <h4>某能源公司合同纠纷案</h4>
+                        <p>代理某能源公司与大型国企的设备采购合同纠纷，涉案金额2000万元，成功为客户挽回全部经济损失并通过反诉获赔偿500万元。</p>
                         <div class="case-result">结果：胜诉，获得赔偿金500万元</div>
                     </div>
                 </div>
                 <div class="case-card fade-in">
                     <div class="case-image">
-                        <i class="fas fa-laptop-code"></i>
+                        <i class="fas fa-users"></i>
                     </div>
                     <div class="case-content">
-                        <h4>某互联网公司数据合规整改</h4>
-                        <p>为某互联网公司提供数据合规审查和整改方案，使其符合GDPR要求。</p>
-                        <div class="case-result">结果：成功通过监管机构审查</div>
+                        <h4>某公司劳动用工合规项目</h4>
+                        <p>为某公司提供劳动用工合规审查与整改服务，完善用工制度与流程，成功降低劳动纠纷发生率70%，避免潜在赔偿风险数千万元。</p>
+                        <div class="case-result">结果：企业劳动纠纷发生率下降70%</div>
                     </div>
                 </div>
                 <div class="case-card fade-in">
                     <div class="case-image">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-building"></i>
                     </div>
                     <div class="case-content">
-                        <h4>某企业并购法律尽职调查</h4>
-                        <p>为某大型企业并购项目提供全面法律尽职调查，识别潜在法律风险。</p>
-                        <div class="case-result">结果：成功完成并购，规避重大法律风险</div>
+                        <h4>某上市公司并购法律尽职调查</h4>
+                        <p>为某上市公司收购目标企业提供全面法律尽职调查，识别并妥善处理潜在法律风险，保障交易顺利进行，交易金额达3亿元。</p>
+                        <div class="case-result">结果：成功完成并购，为客户规避重大法律风险</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 团队部分 -->
-    <section class="team" id="team">
+    <!-- 经验证书与专业资质 -->
+    <section class="credentials">
         <div class="container">
             <div class="section-title fade-in">
-                <h3>专业团队</h3>
-                <p>我们的团队由经验丰富的律师和技术专家组成，为您提供全方位的法律服务</p>
+                <h3>专业资质</h3>
+                <p>权威认证，专业保障</p>
             </div>
-            <div class="team-grid">
-                <div class="team-member fade-in">
-                    <div class="member-image">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="member-info">
-                        <a href="zhangran.html"><h4>张律师</h4>
-                        <p>高级合伙人 | 高级诉讼专家 | 高级企业合规顾问</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
+            <div class="credentials-grid">
+                <div class="credential-card fade-in">
+                    <h4>法律职业资格证书(A类)</h4>
+                    <p>知名法学院毕业，法律事业基础扎实</p>
                 </div>
-                <div class="team-member fade-in">
-                    <div class="member-image">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="member-info">
-                        <h4>张总监</h4>
-                        <p>合伙人 | 高级数据合规顾问 | </p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
+                <div class="credential-card fade-in">
+                    <h4>律师执业证书</h4>
+                    <p>资深执业律师，连续三年司法局评价称职</p>
                 </div>
-                <div class="team-member fade-in">
-                    <div class="member-image">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="member-info">
-                        <h4>王律师</h4>
-                        <p>资深律师 | 企业合规顾问</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
+                <div class="credential-card fade-in">
+                    <h4>安徽省律师协会会员</h4>
+                    <p>积极参与行业协会活动，持续提升专业能力</p>
                 </div>
-                <div class="team-member fade-in">
-                    <div class="member-image">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <div class="member-info">
-                        <h4>陈律师</h4>
-                        <p>律师 | 知识产权专家</p>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
+                <div class="credential-card fade-in">
+                    <h4>年度公益律师</h4>
+                    <p>投身普法、法律援助，帮助大量当事人维护自身权益</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- 行业洞察与培训 -->
+    <section class="services" id="insights">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h3>行业洞察与培训</h3>
+                <p>分享法律知识，助力企业成长</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h4>企业管理层培训</h4>
+                    <p>为多家企业提供管理层法律知识培训，内容涵盖合同管理、劳动用工、知识产权保护等企业运营关键领域。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h4>行业研究报告</h4>
+                    <p>定期发布法律行业研究报告与案例分析，帮助企业及时了解法律政策变化与行业动态，提前布局应对。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h4>法律咨询热线</h4>
+                    <p>提供24小时法律咨询热线服务，及时响应企业与个人的法律需求，确保法律问题得到及时解决。</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h4>线上法律课程</h4>
+                    <p>开发系列线上法律课程，涵盖企业合规、合同管理、知识产权等实用法律知识，方便企业员工随时学习。</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- 在线预约 -->
+    <section class="appointment" id="appointment">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h3>在线预约</h3>
+                <p>填写表单，获取专业法律咨询</p>
+            </div>
+            <div class="appointment-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" placeholder="请输入您的姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">电话</label>
+                        <input type="tel" id="phone" placeholder="请输入您的联系电话">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" placeholder="请输入您的邮箱地址">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">服务类型</label>
+                        <input type="text" id="service" placeholder="请简要描述您需要的法律服务类型">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">咨询内容</label>
+                        <textarea id="message" placeholder="请详细描述您的法律需求，我们将为您提供针对性的解决方案"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">提交预约</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- 页脚 -->
     <footer id="contact">
@@ -752,7 +987,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 科技法律服务. 保留所有权利.</p>
+                <p>&copy; 2025 普罗法律服务. 保留所有权利.</p>
             </div>
         </div>
     </footer>
